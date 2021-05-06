@@ -26,25 +26,25 @@ Start by running *set_up.py*.
 The training corpus (except the ESA CDF reports) will be made available summer 2021, after thesis submission. 
 The trained models will be made available very soon.
 
-*LDA.py* is used to train unsupervised LDA models, while *LDA_semisupervised* is used to train semi-supervised models. 
-*JSDivergence.py* aggregates model based on the JS Divergence method, while *hyperopt_optimisation.py* yields the optimised weights to balance per-document topics distributions.
+*LDA.py* is used to train unsupervised LDA models, while *LDA_semisupervised* is used to train semi-supervised models. \
+*JSDivergence.py* aggregates model based on the JS Divergence method, while *hyperopt_optimisation.py* yields the optimised weights to balance per-document topics distributions.\
 *categorisation.py* runs the categorisation application.
 
 ## Citation
 If you use this code, do cite our research:
 
-@article{BERQUAND2021104273,
-title = {SpaceLDA: Topic distributions aggregation from a heterogeneous corpus for space systems},
-journal = {Engineering Applications of Artificial Intelligence},
-volume = {102},
-pages = {104273},
-year = {2021},
-issn = {0952-1976},
-doi = {https://doi.org/10.1016/j.engappai.2021.104273},
-url = {https://www.sciencedirect.com/science/article/pii/S0952197621001202},
-author = {Audrey Berquand and Yashar Moshfeghi and Annalisa Riccardi},
-keywords = {Topic Modelling, LDA, Spacecraft design, Requirements, Aggregation},
-abstract = {The design of highly complex systems such as spacecraft entails large amounts of documentation. Tracking relevant information, including hundreds of requirements, throughout several design stages is a challenge. In this study, we propose a novel strategy based on Topic Modelling to facilitate the management of spacecraft design requirements. We introduce spaceLDA, a novel domain-specific semi-supervised Latent Dirichlet Allocation (LDA) model enriched with lexical priors and an optimised Weighted Sum (WS). We collect and curate the first large collection of unstructured data related to space systems, combining several sources: Wikipedia pages, books, and feasibility reports provided by the European Space Agency (ESA). We train the spaceLDA model on three subsets of our heterogeneous training corpus. To combine the resulting per-document topic distributions, we enrich our model with an aggregation method based on an optimised WS. We evaluate our model through a case study, a categorisation of spacecraft design requirements. We finally compare our model’s performance with an unsupervised LDA model and with a literature aggregation method. The results demonstrate that the spaceLDA model successfully identifies the topics of requirements and that our proposed approach surpasses the use of a classic LDA model and the state of the art aggregation method.}
+@article{BERQUAND2021104273, \
+title = {SpaceLDA: Topic distributions aggregation from a heterogeneous corpus for space systems}, \
+journal = {Engineering Applications of Artificial Intelligence}, \
+volume = {102}, \
+pages = {104273}, \ 
+year = {2021}, \
+issn = {0952-1976}, \ 
+doi = {https://doi.org/10.1016/j.engappai.2021.104273}, \
+url = {https://www.sciencedirect.com/science/article/pii/S0952197621001202},\
+author = {Audrey Berquand and Yashar Moshfeghi and Annalisa Riccardi},\
+keywords = {Topic Modelling, LDA, Spacecraft design, Requirements, Aggregation},\
+abstract = {The design of highly complex systems such as spacecraft entails large amounts of documentation. Tracking relevant information, including hundreds of requirements, throughout several design stages is a challenge. In this study, we propose a novel strategy based on Topic Modelling to facilitate the management of spacecraft design requirements. We introduce spaceLDA, a novel domain-specific semi-supervised Latent Dirichlet Allocation (LDA) model enriched with lexical priors and an optimised Weighted Sum (WS). We collect and curate the first large collection of unstructured data related to space systems, combining several sources: Wikipedia pages, books, and feasibility reports provided by the European Space Agency (ESA). We train the spaceLDA model on three subsets of our heterogeneous training corpus. To combine the resulting per-document topic distributions, we enrich our model with an aggregation method based on an optimised WS. We evaluate our model through a case study, a categorisation of spacecraft design requirements. We finally compare our model’s performance with an unsupervised LDA model and with a literature aggregation method. The results demonstrate that the spaceLDA model successfully identifies the topics of requirements and that our proposed approach surpasses the use of a classic LDA model and the state of the art aggregation method.}\
 }
 
 ## License

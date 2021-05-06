@@ -3,7 +3,7 @@ Strathclyde Mechanical and Aerospace Research Toolboxes for Natural Language Pro
 
 ## Available Repositories
 * [Space Lexicon Generator](#SpaceLexiconGenerator)
-* [Topic Modeling](#TopicModeling)
+* [Topic Modelling](#TopicModelling)
 * [Engineering Models Migration to Knowledge Graph](#EngineeringModelsMigrationtoKnowledgeGraph)
 
 ## Space Lexicon Generator
@@ -12,17 +12,17 @@ domain-specific entities and concepts similarity analysis", presented at the 202
 
 **The code allows to automatically extract a domain-specific lexicon from a domain-specific corpus, in this case, the corpus is related to space mission design. The lexicon items are embedded with word2vec and similar concepts are identified with cosine similarity.**
 
-## Topic Modeling
+## Topic Modelling
+
+### Conference version
 The code stored in this repository was used to generate results presented at the International Astronautical Congress 2019, in Washington DC (USA), in the session on 'Knowledge Management for space activities in the digital era'. The original paper 'The automatic categorisation of space mission requirements for the Design Engineering Assistant' (IAC-19,D5,2,7,x51013) is available on [researchgate](https://www.researchgate.net/publication/337256904_The_automatic_categorisation_of_space_mission_requirements_for_the_Design_Engineering_Assistant).
 
 **The code allows to train and evaluate unsupervised, supervised and updated LDA models, a common Topic Modeling method, from a wikipedia-based space mission design corpus. The models can be evaluated via the categorisation of space mission requirements, extracted from freely-available European Space Agency mission documents.**
  
-The repository includes
-* The functions to train an unsupervised, semi-supervised and updated LDA models,
-* The functions to perform 5 cross-fold validation to optimise a model topic number,
-* A first 'Space Mission Design' wikipedia corpus, the requirements corpus and the Natural Language Processing pipeline used to process them,
-* Examples of unsupervised and semi-supervised topics dictionaries, labeled and validated by Human annotators,
-* The 'Space' lexical priors, or seed words, used to train the semi-supervised LDA model, validated by Human annotators.
+### Journal version
+The code stored in this repository was used to generate the results for 'SpaceLDA: Topic distributions aggregation from a heterogeneous corpus for space systems' published in the Engineering Application of Artificial Intelligence journal [(link)](https://www.sciencedirect.com/science/article/abs/pii/S0952197621001202).
+
+**The code allows to train and evaluate unsupervised and semi-supervised LDA models on a space mission design corpus (wikipedia webpages, books and ESA feasibility study reports). The models are combined either with a Jensen-Shannon Divergence method or with a weighted sum. The models are evaluated through a categorisation task.**
 
 ## Engineering Models Migration to Knowledge Graph
 The code stored in this repository was used to generate results presented at the 9th International Systems & Concurrent 

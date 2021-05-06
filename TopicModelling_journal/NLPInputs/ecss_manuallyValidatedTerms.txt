@@ -1,0 +1,169 @@
+earth exploration-satellite service
+earth exploration satellite service
+final package
+package
+intermediate package
+date code
+original date code
+primary package
+static loads
+quasi static loads
+relifting date code
+risk communication
+risk index
+risk management process
+risk reduction
+risk scenario
+risk trend
+screw thread
+production facilities
+launcher production facilities
+a-basis design allowable
+a-value
+a basis design allowable
+a value
+absorbance
+acceptance of risk
+ambient dose equivalent
+ap indices
+kp indices
+batch material
+b-basis design allowable
+b-value
+b basis design allowable
+b value
+bifurcated split terminal
+split terminal
+bifurcated terminal
+biobarrier
+burning time
+burst factor
+can-id
+category a
+category b
+cleanliness control
+contamination control
+cleanliness contamination control 
+cleanliness
+contaminate
+cover layer
+crack aspect ratio
+deliverable output force
+discharge coefficient
+distribution function
+dominant and recessive states of canbus signals
+dominant states of canbus signals
+recessive states of canbus signals
+d value
+d-value
+d10 value
+dynamic reduction
+dynamic condensation
+earth infrared
+effective d-value
+effective d value
+emittance
+end of flight mass
+final mass
+end of packet marker
+f10.7 flux
+firsov scattering
+flushing
+purging
+fourier transformation
+handled
+handling
+hard coded data
+hardcoded data
+hdl model
+hemispherical emittance
+hepa particle filter
+high priority telecommand 
+high power command
+icru soft tissue
+icru sphere
+ignition time 
+individual risk
+insulation thickness
+l shell
+l-shell
+latching
+locking
+lead time
+supplier delay
+maxwellian distribution
+meteorological satellite service
+meteorological-satellite service
+modal coordinates
+molar absorptivity
+multimaster-capable
+multimaster capable
+event-oriented message transmission 
+event oriented message transmission 
+multimaster-capable message transmission 
+multimaster capable message transmission 
+event-oriented message transmission
+event oriented message transmission
+nano-tesla
+nano tesla
+non affected thickness
+overall risk
+personal dose equivalent
+individual dose equivalent
+portability
+primary cell
+primary battery
+project factor
+qualification test
+quality characteristics
+software quality characteristics
+radiant power
+radpack
+recharge ratio
+reflectance
+regression testing
+remaining factor
+required factor
+resolved risk
+reverberation time
+r-ratio
+r ratio
+scavenging
+leaching
+secondary cell
+second battery
+solar absorbance
+solar absorptance
+solder balling
+solder balls
+specific impulse
+static reduction
+static condensation
+steady-state availability
+steady state availability
+steady-state availability asymptotic availability
+steady state availability asymptotic availability
+stress intensity factor
+stress-corrosion cracking
+stress corrosion cracking
+temperature mean deviation
+temperature standard deviation 
+test factors
+threshold stress intensity range
+thrust coefficient
+time code
+trace code
+traceability information 
+transmittance
+unresolved risk
+upper part
+upper stage
+usability
+wave number
+x direction
+y direction
+xy direction
+z direction
+software quality model
+quality model
+characteristic velocity

@@ -1,0 +1,10 @@
+The jettisoning strategy of any element shall ensure collision avoidance with the sampling spacecraft and the ERC or the asteroid at any stage of the mission with a TBD margin. | mission_analysis
+No critical S/C operations shall be performed if the Sun-Earth-S/C angle is lower than 5o. | mission_analysis
+No standard S/C operations shall be performed if the Sun-Earth-S/C angle is lower than 2o. | mission_analysis
+The ERC shall be released by the sampling spacecraft from the return hyperbolic trajectory and directly enter the Earth atmosphere. | mission_analysis
+The mission design shall cope with the minimum distances to the Sun during all mission phases, i.e. coast and thrust arcs and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The mission design shall cope with the maximum distances to the Sun during all mission phases, i.e. coast and thrust arcs and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The mission design shall cope with the maximum distances to Earth during all mission phases, cruise and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The duration of a Solar conjunction or when the Sun-Earth-S/C angle is lower than 2o during the transfer to and from the asteroid and during proximity operations shall be limited to 50 days. | mission_analysis
+Mission analysis shall ensure ERC re-entry velocity and flight path angle such that heat fluxes during re-entry do not exceed 15 MW/m2 (incl. margins as defined in [AD13]) and total pressure at stagnation point does not exceed 80 kPa. | mission_analysis
+Mission analysis should ensure a night re-entry of the ERC. | mission_analysis

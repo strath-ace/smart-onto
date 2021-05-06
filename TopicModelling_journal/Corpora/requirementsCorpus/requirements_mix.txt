@@ -1,0 +1,228 @@
+The AOCS shall have an on-board Yaw Steering Mode (YSM) and control its attitude wrt. the Local Orbital Reference Frame (see chapter 3.4.2). This requires two successive rotations to account for local normal pointing and yaw steering. The control law for local normal pointing (LNP) shall be • a rotation around XLO with a roll angle defined by: roll = cx * sin (ωt)• and a rotation around YLO with a pitch angle defined by: pitch = cy * sin (2 * ωt)with cx and cy being constant values, and ω t being the true latitude. The control law for yaw steering (YSM) shall be• a rotation around ZLN with a yaw angle defined by:yaw = cz1 * sin (ωt) + cz2 * cos (ωt)with cz1 and cz2 being constant values, and ω t being the true latitude.As an example, for the reference orbit, the constant values are:cx = +0.0498° cy = -0.1684° cz1 = +0.3220° cz2 = -3.9050° | AOCS_GNC
+In Yaw Steering Mode, the attitude control laws shall be pre-defined law only dependant on one variable: True Latitude. | AOCS_GNC
+The constant parameters used in the Yaw Steering Mode attitude control laws shall be modifiable by ground command. | AOCS_GNC
+The constant parameters used for the Tilt Angle attitude control laws shall be modifiable by ground command. | AOCS_GNC
+The AOCS shall support the pointing requirements of the instrument calibration modes (cf. R-4.4.0-007). | AOCS_GNC
+The AOCS shall be able to autonomously determine the satellite position. | AOCS_GNC
+The AOCS shall provide the DHU with the data necessary to define the orbital position and the attitude state at all times. | AOCS_GNC
+The AOCS shall provide sufficient information to allow the ground segment to reconstruct the attitude in accordance with the requirements derived from the localisation requirements in chapter 4.2.4. | AOCS_GNC
+The AOCS shall permit in-orbit reprogramming of its software. | AOCS_GNC
+The AOCS shall provide information to allow the ground segment to determine the attitude control loop characteristics and the total satellite disturbances at any point in time, the latter assuming the availability of a sufficiently long set of sensor data for estimation. | AOCS_GNC
+The AOCS shall provide data to monitor its configuration, health and operation. | AOCS_GNC
+Real-time data shall be provided directly to Earth during descent and sampling allowing monitoring of the major events. A data rate of 100 bit/s shall be possible (TBC). | communication
+The mission design shall comply with ESA ECSS telecommunication standards ([RD14]). | communication
+The communication system shall support the two-way Ranging and Doppler measurements of the S/C throughout all mission phases and ΔDOR if high- precision navigation is required (e.g. RSE campaign) TBC. | communication
+The link budgets of the spacecraft to ground shall be calculated for a weather availability of 95%. | communication
+Science data shall be downlinked by the spacecraft in X-band. | communication
+The maximum bit error rate during data downlink shall be better than 10-5. | communication
+The telecommunication system shall be capable of simultaneously handling telemetry, ranging and telecommands. | communication
+The telecommunication equipment shall support the RSE as specified in [RD16]. | communication
+The telecommunications system shall be able to downlink all science data as per R- SYS-410/420/430. | communication
+All images taken by navigation cameras and required to be sent to ground (e.g. asteroid shape model, local slopes around sampling sites, etc.), if any, shall be downloaded. | communication
+The spacecraft composite and all its sub-systems, including payload, shall be compatible with the launch environment as defined in ([AD8]). | environment
+The mission design shall be compliant with the general space environment (cruise) requirements defined in [RD4] and the mission-specific (e.g. asteroid) environment requirements defined in [AD4]. | environment
+The sample shall never be exposed to magnetic field larger than 200 µT. | environment
+The spacecraft shall satisfy the electric and magnetic cleanliness (EMC) requirements specified by the payload (TBD reference). | environment
+The maximum surface temperature of the sampling site to be considered for the design of the spacecraft shall be 500 K (TBC). | environment
+The mission design shall be compatible with the rotation period of the primary asteroid of ~ 3.6 hours +/- 0.1%. | environment
+The surface properties which shall be assumed for the design of the sampling mechanism are as follows: ? No solid rock. Only loose material shall be assumed, ? Grain Size: µm ? up to 3 cm, ? Shape: any (rounded, tabular, elongated, etc.), ? Cohesion: 0.1 – 5 kPa, ? Compressive strength: Up to 30 MPa, ? Bulk density: <1 – 2.2 g.cm-3, ? Angle of internal friction: 20? - 40?. | environment
+The asteroid body density shall be assumed to be 1300 ± 600 kg.m-3. This also applies to the secondary body. | environment
+A diameter of 430 m – 590 m shall be assumed for the secondary body. | environment
+A binary with the following properties shall be assumed: ? Secondary orbital semi-major axis: 2.8 + 1.7/-0.7 km, ? Secondary orbital eccentricity: 0.05 ± 0.05, ? Secondary orbital period around primary: 16.15 ± 0.02 hours. | environment
+The Ground Segment (GS) shall be capable of planning and controlling the mission and of operating the satellite under all expected conditions. | ground_segment
+The GS shall be capable of acquiring the X Band satellite data. | ground_segment
+The satellite Telemetry data routed via the X-band channel shall be assembled (acquired and formatted) by the PLM, and shall include: PLM measurement data (Science data) = CORR-TM,composed of the MIRAS correlators outputs,PLM Instrument house-keeping = I-HKTM, including – inter alia – instrument mode information,A set of Platform house-keeping parameters = SC-HKTM,needed by the PLM and/or the DPGS, and including satellite time, attitude and position/velocity/time (PVT) information(known as PROTEUS bulletins). PLM PUS Telecommands house-keeping data = PUS-HKTM,as generated by the implementation of PUS services. | ground_segment
+The GS shall be capable of processing the satellite data up to Level 2 included for its own purposes and for delivery to the users. | ground_segment
+GS shall be composed of five basic functional elements:The S Band TT&C Earth Terminal at Kiruna (TTCET); The satellite Command and Control Centre in Toulouse (CCC); The X Band Data Acquisition Element in Villafranca (XBAS); The processing and archiving element in Villafranca (PDPC).The payload Operation Programming Center (PLPC). | ground_segment
+The mission shall use and be compatible with the standards of the ESA deep space network as well as the NASA deep space network. | ground_segment
+During LEOP, TBD ESA ground stations shall be used for contact with the spacecraft. | ground_segment
+The ground segment shall provide for a 24 hour coverage capability for asteroid descent, touchdown, sampling and local characterization operations. | ground_segment
+The ground segment shall cope with the data volume defined in R-SYS410/420/430. | ground_segment
+The ground segment shall support the on-orbit calibration of the satellite autonomous pointing capabilities. | ground_segment
+The launch vehicle shall be Soyuz-Fregat 2-1b with the Fregat-MT upper stage. | launch
+A launch mass margin of 8% shall be considered (TBC). | launch
+Launch site shall be CSG (Kourou, French Guyana). | launch
+The jettisoning strategy of any element shall ensure collision avoidance with the sampling spacecraft and the ERC or the asteroid at any stage of the mission with a TBD margin. | mission_analysis
+No critical S/C operations shall be performed if the Sun-Earth-S/C angle is lower than 5o. | mission_analysis
+No standard S/C operations shall be performed if the Sun-Earth-S/C angle is lower than 2o. | mission_analysis
+The ERC shall be released by the sampling spacecraft from the return hyperbolic trajectory and directly enter the Earth atmosphere. | mission_analysis
+The mission design shall cope with the minimum distances to the Sun during all mission phases, i.e. coast and thrust arcs and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The mission design shall cope with the maximum distances to the Sun during all mission phases, i.e. coast and thrust arcs and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The mission design shall cope with the maximum distances to Earth during all mission phases, cruise and asteroid proximity operations as specified in [RD1]. | mission_analysis
+The duration of a Solar conjunction or when the Sun-Earth-S/C angle is lower than 2o during the transfer to and from the asteroid and during proximity operations shall be limited to 50 days. | mission_analysis
+Mission analysis shall ensure ERC re-entry velocity and flight path angle such that heat fluxes during re-entry do not exceed 15 MW/m2 (incl. margins as defined in [AD13]) and total pressure at stagnation point does not exceed 80 kPa. | mission_analysis
+Mission analysis should ensure a night re-entry of the ERC. | mission_analysis
+The DHS shall be able to command the instruments and equipment onboard. | OBDH
+The DHS shall provide reconfiguration capabilities in case of failure detection. | OBDH
+The DHS shall manage the redundancy for the relevant sub-systems. | OBDH
+The DHS system shall be compatible with the maximum data rates of each instrument as specified in [RD16]. | OBDH
+The satellite platform and the payload module shall each have an own data handling system. | OBDH
+The platform data handling system shall be implemented in an DHU subsystem. | OBDH
+The payload module data handling functionality shall be implemented in a correlator and control unit (CCU). | OBDH
+The platform DHU and the payload CCU shall interface with each other as specified in the PROTEUS User''s Manual. | OBDH
+The satellite platform and the payload module shall each have an own mass memory unit | OBDH
+Data transmission by means of differential receivers and transmitters shall be preferred. | OBDH
+The model payload as defined in the PRRD [RD16] shall be assumed. | payload
+Science instruments shall not be used as baseline GNC sensors. | payload
+The Absolute Pointing Error (APE) of the payload, during data acquisition, shall be less than 0.1 mrad 3-σ, for the yaw, roll and pitch angles (TBC). | payload
+The Relative Pointing Error (RPE) of the payload shall be less than 0.03 mrad over 1 s 3-σ, deg for the yaw, roll and pitch angles (TBC). | payload
+The sampling spacecraft shall provide a payload mass allocation of 36 kg (TBC). | payload
+During science operations in orbit around the asteroid, the spacecraft shall provide an operating payload power allocation of 76.8 W (TBC). | payload
+During non-science operations in orbit around the asteroid, the spacecraft shall provide a stand-by payload power allocation of 28.8 W (TBC). | payload
+During descent and sampling operations the spacecraft shall provide a power allocation of 15 W (TBC) to the close-up camera. All other instruments are in off (if allowed by their thermal requirements) or stand-by mode. | payload
+The spacecraft shall provide 10.8 W (TBC) of power to the close-up camera when it is in stand-by mode. | payload
+The spacecraft power system shall be made of solar arrays and batteries and shall cope with the power needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft power modes, including safe mode. | power
+The spacecraft battery shall be sized for worst case eclipses and the descent/touchdown/re-ascent phase. | power
+The sizing of the solar arrays shall allow the S/C to stay on a ”Radio-science” orbit and safe position as defined in 13.2. | power
+The electrical design shall comply with the requirements of [RD6]. Tailoring of these requirements may be proposed and need to be justified. | power
+The ECSS-E-20 (Electrical and Electronic) standard is applicable. | power
+The electric power supply subsystem (EPS) shall provide the electric power required to satisfy all load requirements during all mission phases and for all operation modes. | power
+Electrical power shall be guaranteed by a solar generator, its electrical configuration shall be defined on the basis of the topology selected for the EPS. | power
+Degradation factors shall be taken into account to cater for efficiency changes of the energy conversion process due to the space environment, variations in solar illumination including the ensuing thermal effects and design uncertainties. | power
+Cell performance and degradation factors shall be justified according to in orbit experience and supporting ground testing. | power
+The worst case power margin at ENOL shall be positive. | power
+Compliance of the energy storage capacity at ENOL at the prevailing temperature and for the expected number of cycles and depth-ofdischarge shall be ensured. | power
+The propulsion system shall cope with all operations and associated Delta-V/thrust requirements incl.: transfer (MCC, DSM, etc.), asteroid proximity operations, initial fly-bys, gravity field campaign, controlled orbits, local characterization phase, sampling rehearsals, descent/touchdown and re-ascent phases, etc. | propulsion
+The by-products of the propulsion system shall be characterized and reported at ppb level prior to the mission. | propulsion
+The propulsion sub-system shall be designed to be compatible with any operational S/C attitude. The main engine and any reaction control thruster shall be thermally qualified for such environmental conditions. | propulsion
+The propulsion sub-system thermal design shall assure that the minimum predicted temperatures of any wetted component or surface contacting the propellant remain at least 10oC above the maximum freezing point of the onboard propellant. | propulsion
+The performances of the propulsion system in terms of total impulse and margin shall satisfy the requirements imposed by the mission, the trajectory analysis and the overall system requirements. | propulsion
+The spacecraft thermal control system shall cope with the thermal needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft thermal modes, including safe mode. | thermal
+The spacecraft thermal control system shall cope with the space environment throughout the mission (incl. asteroid surface operations). | thermal
+The TCS shall provide the appropriate thermal environment to the structural parts so that the alignment between sensors and instrument is maintained and the stability of the alignment is ensured. | thermal
+The thermal control system (TCS) shall provide the thermal environment (temperatures, gradients, stability) required to ensure full performance of all satellite systems and instrument as required in all mission phases and operational modes (including calibration mode) and for the complete duration of the mission. | thermal
+The TCS shall ensure survival thermal environment under the established anomaly conditions. | thermal
+The design of the TCS shall be such that the instrument and the satellite can be developed, integrated and tested separately with minimum interaction. | thermal
+Thermal fluxes between the payload and the rest of the satellite shall be minimized. | thermal
+The thermal control shall be achieved by passive means and by heaters. The use of heat pipes shall be avoided. | thermal
+The TCS shall include sensors to allow temperature monitoring and control. | thermal
+The TCS design shall be compatible with the environment to be expected in orbit: varying solar aspect angles, Earth albedo and infrared radiation. Worst hot and cold cases shall be identified and analysed. | thermal
+The TCS shall be designed to provide adequate margins between the predicted extreme temperature ranges of units (based on worst case steady state and transient conditions) and the required design limits in order to minimise costly satellite verification and qualification effort in the subsequent phases of the project. | thermal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

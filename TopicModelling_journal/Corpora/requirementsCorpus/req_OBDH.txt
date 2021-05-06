@@ -1,0 +1,10 @@
+The DHS shall be able to command the instruments and equipment onboard. | OBDH
+The DHS shall provide reconfiguration capabilities in case of failure detection. | OBDH
+The DHS shall manage the redundancy for the relevant sub-systems. | OBDH
+The DHS system shall be compatible with the maximum data rates of each instrument as specified in [RD16]. | OBDH
+The satellite platform and the payload module shall each have an own data handling system. | OBDH
+The platform data handling system shall be implemented in an DHU subsystem. | OBDH
+The payload module data handling functionality shall be implemented in a correlator and control unit (CCU). | OBDH
+The platform DHU and the payload CCU shall interface with each other as specified in the PROTEUS User''s Manual. | OBDH
+The satellite platform and the payload module shall each have an own mass memory unit | OBDH
+Data transmission by means of differential receivers and transmitters shall be preferred. | OBDH

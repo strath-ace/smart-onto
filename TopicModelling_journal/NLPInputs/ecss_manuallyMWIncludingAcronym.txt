@@ -1,0 +1,80 @@
+antenna RF chain
+AOCS end-to-end test
+AOCS functional simulator
+AOCS mode
+ASIC technology
+assembled PCB
+closed-loop ECLSS
+component type TIDS
+component type TNIDS
+constrained DOF
+controlled ICD
+COTS
+COTS software
+OTS software
+MOTS software
+dependent DOF
+DHS core element
+DHS data interchange bus
+DHS peripheral element
+EM quality level hybrid
+equivalent LET
+ESD protected area
+ESD protective material
+ESD protective packaging
+flexible PCB
+FOV spatial error
+free DOF
+frozen ICD
+FTIR spectrometer
+functional FMEA
+functional FMECA
+hardware FMEA
+hardware FMECA
+high frequency PCB
+LCL class
+LCL switch dissipative failure
+LET Threshold
+metal core PCB
+local SCET
+modal DOFs
+NIEL
+NIEL rate
+NIEL coefficient
+NMT master
+NMT slave
+multilayer PCB
+non-hazardous LBB failure mode 
+OBCP code
+OBCP engine
+OBCP language
+OBCP step
+OBCP system
+open-loop ECLSS
+open loop ECLSS
+PCB manufacturer
+POGO
+preliminary ICD
+process FMECA
+pseudo-ECL
+RF chain
+RF elements 
+RF lens
+RF reflector
+rigid double-sided PCB
+rigid PCB
+rigid single-sided PCB
+rigid-flex double-sided PCB
+rigid-flex multilayer PCB
+rigid-flex PCB
+RLCL class
+sequentially laminated multilayer PCB
+size of FE model
+special NDI
+standard NDI
+tilt for HP
+tilt for LHP
+ULPA particle filter
+UVP switch-off response time
+VCM test
+rigid multilayer PCB

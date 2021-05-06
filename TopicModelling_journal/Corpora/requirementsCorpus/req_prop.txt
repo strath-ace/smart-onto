@@ -1,0 +1,5 @@
+The propulsion system shall cope with all operations and associated Delta-V/thrust requirements incl.: transfer (MCC, DSM, etc.), asteroid proximity operations, initial fly-bys, gravity field campaign, controlled orbits, local characterization phase, sampling rehearsals, descent/touchdown and re-ascent phases, etc. | propulsion
+The by-products of the propulsion system shall be characterized and reported at ppb level prior to the mission. | propulsion
+The propulsion sub-system shall be designed to be compatible with any operational S/C attitude. The main engine and any reaction control thruster shall be thermally qualified for such environmental conditions. | propulsion
+The propulsion sub-system thermal design shall assure that the minimum predicted temperatures of any wetted component or surface contacting the propellant remain at least 10oC above the maximum freezing point of the onboard propellant. | propulsion
+The performances of the propulsion system in terms of total impulse and margin shall satisfy the requirements imposed by the mission, the trajectory analysis and the overall system requirements. | propulsion

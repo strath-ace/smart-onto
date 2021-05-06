@@ -1,0 +1,3 @@
+The launch vehicle shall be Soyuz-Fregat 2-1b with the Fregat-MT upper stage. | launch
+A launch mass margin of 8% shall be considered (TBC). | launch
+Launch site shall be CSG (Kourou, French Guyana). | launch

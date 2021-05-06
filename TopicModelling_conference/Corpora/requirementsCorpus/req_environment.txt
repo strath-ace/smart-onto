@@ -1,0 +1,10 @@
+The spacecraft composite and all its sub-systems, including payload, shall be compatible with the launch environment as defined in ([AD8]). | environment
+The mission design shall be compliant with the general space environment (cruise) requirements defined in [RD4] and the mission-specific (e.g. asteroid) environment requirements defined in [AD4]. | environment
+The sample shall never be exposed to magnetic field larger than 200 µT. | environment
+The spacecraft shall satisfy the electric and magnetic cleanliness (EMC) requirements specified by the payload (TBD reference). | environment
+The maximum surface temperature of the sampling site to be considered for the design of the spacecraft shall be 500 K (TBC). | environment
+The mission design shall be compatible with the rotation period of the primary asteroid of ~ 3.6 hours +/- 0.1%. | environment
+The surface properties which shall be assumed for the design of the sampling mechanism are as follows: ? No solid rock. Only loose material shall be assumed, ? Grain Size: µm ? up to 3 cm, ? Shape: any (rounded, tabular, elongated, etc.), ? Cohesion: 0.1 – 5 kPa, ? Compressive strength: Up to 30 MPa, ? Bulk density: <1 – 2.2 g.cm-3, ? Angle of internal friction: 20? - 40?. | environment
+The asteroid body density shall be assumed to be 1300 ± 600 kg.m-3. This also applies to the secondary body. | environment
+A diameter of 430 m – 590 m shall be assumed for the secondary body. | environment
+A binary with the following properties shall be assumed: ? Secondary orbital semi-major axis: 2.8 + 1.7/-0.7 km, ? Secondary orbital eccentricity: 0.05 ± 0.05, ? Secondary orbital period around primary: 16.15 ± 0.02 hours. | environment

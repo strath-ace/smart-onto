@@ -1,0 +1,17 @@
+gs, ground segment
+tcs, thermal control system
+obdh, on-board data handling
+dhs, data handling system
+eps, electrical power supply system
+p/l, payload
+s/c, spacecraft
+aocs, attitude and orbit control system
+enol, end of nominal operational lifetime
+prrd, payload resources and requirements document
+rpe, relative pointing error
+gnc, guidance navigation and control
+ape, absolute pointing error
+leo, low earth orbit
+mli, multi layer insulation
+sso, sun synchronous orbit
+

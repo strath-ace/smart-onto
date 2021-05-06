@@ -1,0 +1,11 @@
+The spacecraft thermal control system shall cope with the thermal needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft thermal modes, including safe mode. | thermal
+The spacecraft thermal control system shall cope with the space environment throughout the mission (incl. asteroid surface operations). | thermal
+The TCS shall provide the appropriate thermal environment to the structural parts so that the alignment between sensors and instrument is maintained and the stability of the alignment is ensured. | thermal
+The thermal control system (TCS) shall provide the thermal environment (temperatures, gradients, stability) required to ensure full performance of all satellite systems and instrument as required in all mission phases and operational modes (including calibration mode) and for the complete duration of the mission. | thermal
+The TCS shall ensure survival thermal environment under the established anomaly conditions. | thermal
+The design of the TCS shall be such that the instrument and the satellite can be developed, integrated and tested separately with minimum interaction. | thermal
+Thermal fluxes between the payload and the rest of the satellite shall be minimized. | thermal
+The thermal control shall be achieved by passive means and by heaters. The use of heat pipes shall be avoided. | thermal
+The TCS shall include sensors to allow temperature monitoring and control. | thermal
+The TCS design shall be compatible with the environment to be expected in orbit: varying solar aspect angles, Earth albedo and infrared radiation. Worst hot and cold cases shall be identified and analysed. | thermal
+The TCS shall be designed to provide adequate margins between the predicted extreme temperature ranges of units (based on worst case steady state and transient conditions) and the required design limits in order to minimise costly satellite verification and qualification effort in the subsequent phases of the project. | thermal

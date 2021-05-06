@@ -1,0 +1,9 @@
+The model payload as defined in the PRRD [RD16] shall be assumed. | payload
+Science instruments shall not be used as baseline GNC sensors. | payload 
+The Absolute Pointing Error (APE) of the payload, during data acquisition, shall be less than 0.1 mrad 3-σ, for the yaw, roll and pitch angles (TBC). | payload
+The Relative Pointing Error (RPE) of the payload shall be less than 0.03 mrad over 1 s 3-σ, deg for the yaw, roll and pitch angles (TBC). | payload
+The sampling spacecraft shall provide a payload mass allocation of 36 kg (TBC). | payload
+During science operations in orbit around the asteroid, the spacecraft shall provide an operating payload power allocation of 76.8 W (TBC). | payload
+During non-science operations in orbit around the asteroid, the spacecraft shall provide a stand-by payload power allocation of 28.8 W (TBC). | payload
+During descent and sampling operations the spacecraft shall provide a power allocation of 15 W (TBC) to the close-up camera. All other instruments are in off (if allowed by their thermal requirements) or stand-by mode. | payload
+The spacecraft shall provide 10.8 W (TBC) of power to the close-up camera when it is in stand-by mode. | payload

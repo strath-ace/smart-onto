@@ -1,0 +1,12 @@
+The AOCS shall have an on-board Yaw Steering Mode (YSM) and control its attitude wrt. the Local Orbital Reference Frame (see chapter 3.4.2). This requires two successive rotations to account for local normal pointing and yaw steering. The control law for local normal pointing (LNP) shall be • a rotation around XLO with a roll angle defined by: roll = cx * sin (ωt)• and a rotation around YLO with a pitch angle defined by: pitch = cy * sin (2 * ωt)with cx and cy being constant values, and ω t being the true latitude. The control law for yaw steering (YSM) shall be• a rotation around ZLN with a yaw angle defined by:yaw = cz1 * sin (ωt) + cz2 * cos (ωt)with cz1 and cz2 being constant values, and ω t being the true latitude.As an example, for the reference orbit, the constant values are:cx = +0.0498° cy = -0.1684° cz1 = +0.3220° cz2 = -3.9050° | AOCS_GNC
+In Yaw Steering Mode, the attitude control laws shall be pre-defined law only dependant on one variable: True Latitude. | AOCS_GNC
+The constant parameters used in the Yaw Steering Mode attitude control laws shall be modifiable by ground command. | AOCS_GNC
+The constant parameters used for the Tilt Angle attitude control laws shall be modifiable by ground command. | AOCS_GNC
+The AOCS shall support the pointing requirements of the instrument calibration modes (cf. R-4.4.0-007). | AOCS_GNC
+The AOCS shall be able to autonomously determine the satellite position. | AOCS_GNC
+The AOCS shall provide the DHU with the data necessary to define the orbital position and the attitude state at all times. | AOCS_GNC
+The AOCS shall provide sufficient information to allow the ground segment to reconstruct the attitude in accordance with the requirements derived from the localisation requirements in chapter 4.2.4. | AOCS_GNC
+The AOCS shall permit in-orbit reprogramming of its software. | AOCS_GNC
+
+The AOCS shall provide information to allow the ground segment to determine the attitude control loop characteristics and the total satellite disturbances at any point in time, the latter assuming the availability of a sufficiently long set of sensor data for estimation. | AOCS_GNC
+The AOCS shall provide data to monitor its configuration, health and operation. | AOCS_GNC

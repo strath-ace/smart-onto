@@ -1,0 +1,10 @@
+Real-time data shall be provided directly to Earth during descent and sampling allowing monitoring of the major events. A data rate of 100 bit/s shall be possible (TBC). | communication
+The mission design shall comply with ESA ECSS telecommunication standards ([RD14]). | communication
+The communication system shall support the two-way Ranging and Doppler measurements of the S/C throughout all mission phases and ΔDOR if high- precision navigation is required (e.g. RSE campaign) TBC. | communication
+The link budgets of the spacecraft to ground shall be calculated for a weather availability of 95%. | communication
+Science data shall be downlinked by the spacecraft in X-band. | communication
+The maximum bit error rate during data downlink shall be better than 10-5. | communication
+The telecommunication system shall be capable of simultaneously handling telemetry, ranging and telecommands. | communication
+The telecommunication equipment shall support the RSE as specified in [RD16]. | communication
+The telecommunications system shall be able to downlink all science data as per R- SYS-410/420/430. | communication
+All images taken by navigation cameras and required to be sent to ground (e.g. asteroid shape model, local slopes around sampling sites, etc.), if any, shall be downloaded. | communication

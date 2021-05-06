@@ -1,0 +1,11 @@
+The spacecraft power system shall be made of solar arrays and batteries and shall cope with the power needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft power modes, including safe mode. | power
+The spacecraft battery shall be sized for worst case eclipses and the descent/touchdown/re-ascent phase. | power
+The sizing of the solar arrays shall allow the S/C to stay on a ”Radio-science” orbit and safe position as defined in 13.2. | power
+The electrical design shall comply with the requirements of [RD6]. Tailoring of these requirements may be proposed and need to be justified. | power
+The ECSS-E-20 (Electrical and Electronic) standard is applicable. | power
+The electric power supply subsystem (EPS) shall provide the electric power required to satisfy all load requirements during all mission phases and for all operation modes. | power
+Electrical power shall be guaranteed by a solar generator, its electrical configuration shall be defined on the basis of the topology selected for the EPS. | power
+Degradation factors shall be taken into account to cater for efficiency changes of the energy conversion process due to the space environment, variations in solar illumination including the ensuing thermal effects and design uncertainties. | power
+Cell performance and degradation factors shall be justified according to in orbit experience and supporting ground testing. | power
+The worst case power margin at ENOL shall be positive. | power
+Compliance of the energy storage capacity at ENOL at the prevailing temperature and for the expected number of cycles and depth-ofdischarge shall be ensured. | power

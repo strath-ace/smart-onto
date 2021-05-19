@@ -109,15 +109,15 @@ def getModel(model_name, aggregated, semi, fmodel):
     '''
 
     if aggregated:
-        ldaModel = parentDir + '/LDAmodels/' + fmodel + '/' + str(model_name)
+        ldaModel = parentDir + '/LDAModels/JSAggregatedModels/' + fmodel + '/' + str(model_name)
         lda = models.ldamodel.LdaModel.load(ldaModel)
         lda.expElogbeta = lda.eta
-        dic = parentDir + '/LDAmodels/' + fmodel + '/dic_' + str(model_name) + '.dict'
+        dic = parentDir + '/LDAModels/JSAggregatedModels/' + fmodel + '/dic_' + str(model_name) + '.dict'
         modelDic = Dictionary.load(dic)
 
         labels = []
         with open(
-                parentDir + '/LDAmodels/' + fmodel + '/manualLabels_model_' + model_name + '.txt','r',
+                parentDir + '/LDAModels/JSAggregatedModels/' + fmodel + '/manualLabels_model_' + model_name + '.txt','r',
                 encoding="utf-8") as labelsFile:
             labelLine = labelsFile.read().split('\n')
             for line in labelLine:
@@ -132,11 +132,11 @@ def getModel(model_name, aggregated, semi, fmodel):
         # Unsupervised LDA model case
         if not semi:
             # Load LDA model and corresponding dictionary ------------------------------------------------------------------
-            ldaModel = parentDir + '/LDAmodels/'+fmodel+'/' + str(model_name)
+            ldaModel = parentDir + '/LDAModels/WSCombinedModels/'+fmodel+'/' + str(model_name)
             lda = models.ldamodel.LdaModel.load(ldaModel)
             #print('Model Topics Number:', lda.num_topics)
 
-            dic = parentDir + '/LDAmodels/'+fmodel+'/dic_' + str(model_name) + '.dict'
+            dic = parentDir + '/LDAModels/WSCombinedModels/'+fmodel+'/dic_' + str(model_name) + '.dict'
             modelDic = Dictionary.load(dic)
 
             # Recreating the topics dictionaries ---------------------------------------------------------------------------
@@ -162,11 +162,11 @@ def getModel(model_name, aggregated, semi, fmodel):
             # Semi-unsupervised LDA model case
 
             # Load LDA model and corresponding dictionary
-            ldaModel = parentDir + '/LDAmodels/'+fmodel+'/semisupervised_' + str(model_name)
+            ldaModel = parentDir + '/LDAModels/WSCombinedModels/'+fmodel+'/semisupervised_' + str(model_name)
             lda = models.ldamodel.LdaModel.load(ldaModel)
             #print('topics number:', lda.num_topics)
 
-            dic = parentDir + '/LDAmodels/'+fmodel+'/dic_semisupervised_' + str(model_name) + '.dict'
+            dic = parentDir + '/LDAModels/WSCombinedModels/'+fmodel+'/dic_semisupervised_' + str(model_name) + '.dict'
             modelDic = Dictionary.load(dic)
 
             # Recreating the topics dictionaries

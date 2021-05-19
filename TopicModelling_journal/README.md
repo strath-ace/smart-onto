@@ -24,7 +24,6 @@ This code was run with Python 3.7.
 Start by running *set_up.py*.
  
 The training corpus (except the ESA CDF reports) will be made available summer 2021, after thesis submission. 
-The trained models will be made available very soon.
 
 *LDA.py* is used to train unsupervised LDA models, while *LDA_semisupervised* is used to train semi-supervised models. \
 *JSDivergence.py* aggregates model based on the JS Divergence method, while *hyperopt_optimisation.py* yields the optimised weights to balance per-document topics distributions.\

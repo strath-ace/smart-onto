@@ -5,6 +5,7 @@ Strathclyde Mechanical and Aerospace Research Toolboxes for Natural Language Pro
 * [Space Lexicon Generator](#SpaceLexiconGenerator)
 * [Topic Modelling](#TopicModelling)
 * [Engineering Models Migration to Knowledge Graph](#EngineeringModelsMigrationtoKnowledgeGraph)
+* [SpaceTransformers](#SpaceTransformers)
 
 ## Space Lexicon Generator
 The code stored in this repository was used to generate the results of the paper "Space mission design ontology: extraction of
@@ -32,3 +33,6 @@ The paper 'From engineering models to knowledge graph: delivering new insights i
 **The code allows to automatically migrate Engineering Models based on the ECSS-E-TM-10-25A TM (in our case exported from the RHEA CDP4-CE platform), to a **[Grakn](https://grakn.ai/)** Knowledge Graph (KG). Code is also provided to infer a new type of relationship isIncludedInMassBudget within the graph, and automatically generate a dry mass budget for each design option. Finally, a pipeline to train a doc2vec model with the Gensim Python library, embed requirements sets found in the populated KG and assess their similarity with cosine similarity is provided.**
 
 Comment: The authors warmly thank Sabrina Mirtcheva and Serge Valera from ESA for kindly providing the ECSS requirements data set used to train the doc2vec model. This data set is based on the EARM_ECSS_export(DOORS-v0.7_May2019).xlsx document that can be found [here](https://ecss.nl/standards/downloads/earm/).
+
+## SpaceTransformers
+The code stored in this repository was used to further pre-train the SpaceTransformers family of models (incl. SpaceBERT, SpaceRoBERTa and SpaceSciBERT) and fine-tune these on a Concept Recognition task. This work was published by the IEEE Access journal, in ['SpaceTransformers: language modeling for space systems'](https://ieeexplore.ieee.org/document/9548078).

@@ -21,6 +21,8 @@ The [further pre-training](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd
 The *SpaceBERT.zip*, *SpaceRoBERTa.zip* and *SpaceSciBERT.zip* folders respectively contain the models further pre-trained with our collection of documents focused on space systems. The *FPT* folder contains the code to further pre-train the domain-specific models. The models were further pre-trained with one NVIDIA V100 GPU hosted on the [ARCHIE-WeSt High Performance Computer](https://www.archie-west.ac.uk) based at the
 University of Strathclyde. The *FT* folder contains the code to fine-tune the further pre-train models on a Concept Recognition Task.
 
+**The models can also be accessed through the HuggingFace library at [huggingface.co/icelab](https://huggingface.co/icelab).**
+
 ## Citation
 If you use our models and/or code, do cite our research:
 @ARTICLE{9548078,

@@ -20,10 +20,7 @@ accessed through the [HuggingFace library](https://huggingface.co/) Transformers
 The [further pre-training](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) corpora will soon be available through the Strathclyde Knowledge Base.
 
 
-The [fine-tuning](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/CR_ECSS_dataset.json) dataset is available for download and consists of 874 unique manual annotated ECSS requirements. The [notebook](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/Fine_tune_SpaceTransformer.ipynb) for fine-tuning the pre-trained models on the Concept Recognition tasks is available for donwload as well, or can be directly excecuted via
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EGh9bdxq6RqIzbvKuptAWvmIBG2EQJzJ?usp=sharing)
-[Google Colab](https://colab.research.google.com/drive/1EGh9bdxq6RqIzbvKuptAWvmIBG2EQJzJ?usp=sharing).
+The [fine-tuning](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/CR_ECSS_dataset.json) dataset is available for download and consists of 874 unique manual annotated ECSS requirements. The [notebook](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/Fine_tune_SpaceTransformer.ipynb) for fine-tuning the pre-trained models on the Concept Recognition tasks is available for donwload as well, or can be directly excecuted via [Google Colab](https://colab.research.google.com/drive/1EGh9bdxq6RqIzbvKuptAWvmIBG2EQJzJ?usp=sharing).
 
 The *SpaceBERT.zip*, *SpaceRoBERTa.zip* and *SpaceSciBERT.zip* folders respectively contain the models further pre-trained with our collection of documents focused on space systems. The *FPT* folder contains the code to further pre-train the domain-specific models. The models were further pre-trained with one NVIDIA V100 GPU hosted on the [ARCHIE-WeSt High Performance Computer](https://www.archie-west.ac.uk) based at the
 University of Strathclyde. The *FT* folder contains the code to fine-tune the further pre-train models on a Concept Recognition Task.

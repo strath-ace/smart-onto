@@ -16,7 +16,12 @@ The code stored in this repository was used to further pre-train the models and 
 This code was developed in Python 3.7. The configuration and pre-trained weights of the BERT-Base, RoBERTa-Base and SciBERT models are
 accessed through the [HuggingFace library](https://huggingface.co/) Transformers library. The further pre-trained models can be similarly loaded with this library.
 
-The [further pre-training](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) and [fine-tuning]( https://doi.org/10.15129/3c19e737-9054-4892-8ee5-4c4c7f406410) corpora will soon be available through the Strathclyde Knowledge Base.
+
+The [further pre-training](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) corpora will soon be available through the Strathclyde Knowledge Base.
+
+
+The[fine-tuning](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/CR_ECSS_dataset.json) dataset is available for download and consists of 874 unique manual annotated ECSS requirements. The [notebook](https://github.com/strath-ace/smart-nlp/blob/master/SpaceTransformers/CR/Fine_tune_SpaceTransformer.ipynb) for fine-tuning the pre-trained models on the Concept Recognition tasks is available for donwload as well, or can be directly assesed on [Google Colab](https://colab.research.google.com/drive/1EGh9bdxq6RqIzbvKuptAWvmIBG2EQJzJ?usp=sharing).
+https://doi.org/10.15129/3c19e737-9054-4892-8ee5-4c4c7f406410)
 
 The *SpaceBERT.zip*, *SpaceRoBERTa.zip* and *SpaceSciBERT.zip* folders respectively contain the models further pre-trained with our collection of documents focused on space systems. The *FPT* folder contains the code to further pre-train the domain-specific models. The models were further pre-trained with one NVIDIA V100 GPU hosted on the [ARCHIE-WeSt High Performance Computer](https://www.archie-west.ac.uk) based at the
 University of Strathclyde. The *FT* folder contains the code to fine-tune the further pre-train models on a Concept Recognition Task.

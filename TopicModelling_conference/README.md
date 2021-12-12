@@ -4,6 +4,7 @@
 * [Introduction - The Design Engineering Assistant project](#Introduction)
 * [Latent Dirichlet Allocation (LDA) for Space Mission Design ](#LDA)
 * [Getting Started](#start)
+* [Dataset] (#dataset)
 * [Citation](#cite)
 * [License](#lic)
 * [Contact](#con)
@@ -41,10 +42,12 @@ The repository includes
 This code was run with Python 3.7. 
 
 Start by running *set_up.py*.
- 
-Parsed wikipedia pages and requirements, under .json format, are already available in the *Corpora* folder.
 
 *LDA.py* is used to train unsupervised LDA models, while *LDA_semisupervised* is used to train semi-supervised models. 
+
+## Dataset
+The dataset [Dataset of space systems corpora](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) is available from the University of Strathclyde KnowledgeBase.
+
 
 ## Citation
 If you use this code, we kindly request that you cite our research:

@@ -1,7 +1,7 @@
 # SpaceLDA: Topic distributions aggregation from a heterogeneous corpus for space systems
 
 ## Table of contents
-* [Summary for neophytes] (#summary)
+* [Summary for neophytes](#summary)
 * [Latent Dirichlet Allocation (LDA) for Space Mission Design ](#LDA)
 * [Getting Started](#start)
 * [Dataset](#dataset)

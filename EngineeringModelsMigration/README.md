@@ -11,7 +11,7 @@ c.	Trains a doc2vec model on a data set of ECSS requirements to assess past and 
 
 ## Table of contents
 * [Getting Started](#start)
-* [Dataset] (#Dataset)
+* [Dataset](#Dataset)
 * [Citation](#cite)
 * [License](#lic)
 * [Contact](#con)

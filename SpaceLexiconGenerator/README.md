@@ -2,7 +2,7 @@
 ## Space Lexicon Generator
 * [Introduction - The Design Engineering Assistant project](#Introduction)
 * [Generating a Space Lexicon](#Lexicon)
-* [Dataset] (#Dataset)
+* [Dataset](#Dataset)
 * [Getting Started](#start)
 * [Citation](#cite)
 * [License](#lic)

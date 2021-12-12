@@ -4,7 +4,7 @@
 * [Introduction - The Design Engineering Assistant project](#Introduction)
 * [Latent Dirichlet Allocation (LDA) for Space Mission Design ](#LDA)
 * [Getting Started](#start)
-* [Dataset] (#dataset)
+* [Dataset](#dataset)
 * [Citation](#cite)
 * [License](#lic)
 * [Contact](#con)

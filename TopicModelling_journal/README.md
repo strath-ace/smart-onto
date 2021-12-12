@@ -4,6 +4,7 @@
 * [Summary for neophytes] (#summary)
 * [Latent Dirichlet Allocation (LDA) for Space Mission Design ](#LDA)
 * [Getting Started](#start)
+* [Dataset](#dataset)
 * [Citation](#cite)
 * [License](#lic)
 * [Contact](#con)
@@ -23,11 +24,13 @@ This code was run with Python 3.7.
 
 Start by running *set_up.py*.
  
-The training corpus (except the ESA CDF reports) will be made available summer 2021, after thesis submission. 
-
 *LDA.py* is used to train unsupervised LDA models, while *LDA_semisupervised* is used to train semi-supervised models. \
 *JSDivergence.py* aggregates model based on the JS Divergence method, while *hyperopt_optimisation.py* yields the optimised weights to balance per-document topics distributions.\
 *categorisation.py* runs the categorisation application.
+
+## Dataset
+The dataset [Dataset of space systems corpora](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) is available from the University of Strathclyde KnowledgeBase.
+
 
 ## Citation
 If you use this code, do cite our research:

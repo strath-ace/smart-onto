@@ -11,6 +11,7 @@ c.	Trains a doc2vec model on a data set of ECSS requirements to assess past and 
 
 ## Table of contents
 * [Getting Started](#start)
+* [Dataset] (#Dataset)
 * [Citation](#cite)
 * [License](#lic)
 * [Contact](#con)
@@ -31,6 +32,10 @@ To assess requirements sets' similarity, run *assessMissionSimilarity.py*.
 
 When done:
 * Stop Grakn server (*grakn server stop*)
+
+## Dataset
+The dataset [Dataset of space systems corpora](https://doi.org/10.15129/8e1c3353-ccbe-4835-b4f9-bffd6b5e058b) is available from the University of Strathclyde KnowledgeBase.
+
  
 ## Citation
 If you use this code, we kindly request that you cite our research, 
